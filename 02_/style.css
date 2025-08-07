@@ -1,12 +1,14 @@
+/* universal selector */
 * {
   font-family: "Courier New";
 }
-
+/* element selector */
 h1,
 h3 {
   color: #b92b27;
 }
 
+/* id selector */
 #login {
   background-color: white;
 }
@@ -14,6 +16,7 @@ h3 {
   background-color: #b92b27;
   color: white;
 }
+/* class selector */
 .upvote {
   background-color: green;
   color: white;
@@ -25,4 +28,36 @@ h3 {
 
 #myId p {
   color: green;
+}
+/* descendant selector */
+.post a {
+  color: purple;
+  background-color: yellow;
+}
+/* Descendant Selector*/
+nav a {
+  color: hotpink;
+}
+
+/* Adjacent sibling selrctor */
+p + h3 {
+  text-decoration: underline;
+}
+.upvote + button {
+  background-color: cornflowerblue;
+  color: darkblue;
+}
+/* child combinator */
+div > input {
+  background-color: darksalmon;
+}
+/* Attribute Selector */
+input[type="text"] {
+  color: red;
+}
+input[type="password"] {
+  color: green;
+}
+input[type] {
+  background-color: ghostwhite;
 }

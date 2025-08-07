@@ -18,3 +18,11 @@ h3 {
   background-color: green;
   color: white;
 }
+
+/* div[id = "myId"] p {
+  color: green;
+} */
+
+#myId p {
+  color: green;
+}

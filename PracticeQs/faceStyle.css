@@ -1,0 +1,50 @@
+.face {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 195, 105);
+  border-radius: 50%;
+}
+.eyes {
+  height: 20px;
+  width: 60px;
+  /* background-color: #000000; */
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.eL,
+.eR {
+  display: inline-block;
+  height: 8px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  /* rotate: 90deg; */
+}
+.eR {
+  position: absolute;
+  top: 6px;
+  left: 40px;
+}
+.bL,
+.bR {
+  height: 8px;
+  width: 8px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 4px;
+}
+.smile {
+  background-color: red;
+  height: 15px;
+  width: 70px;
+  position: absolute;
+  top: 70px;
+  left: 23px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}

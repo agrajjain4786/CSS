@@ -41,3 +41,8 @@
     background-color: #414141;
   }
 }
+@media (orientation: landscape) {
+  body {
+    background-color: #abcdef;
+  }
+}

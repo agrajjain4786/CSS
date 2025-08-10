@@ -1,0 +1,26 @@
+@keyframes fontAnimation {
+  100% {
+    font-size: 20px;
+    background-color: chocolate;
+  }
+  20% {
+    font-size: 5px;
+  }
+
+  40% {
+    font-size: 40px;
+    background-color: rgb(0, 236, 82);
+  }
+}
+.box {
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+  /* animation-name: fontAnimation;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal; */
+  animation: fontAnimation 3s ease-out 0s infinite normal;
+}
